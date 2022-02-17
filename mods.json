@@ -629,7 +629,7 @@
     "name": "fabric-language-kotlin",
     "id": "Ha28R6CL",
     "provider": "modrinth",
-    "any-version": true
+    "any_version": true
   },
   {
     "name": "architectury",

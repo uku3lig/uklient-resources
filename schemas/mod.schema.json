@@ -30,17 +30,17 @@
         "items": {
           "type": "object",
           "properties": {
-            "minecraftVersion": {
+            "minecraft_version": {
               "type": "string",
               "pattern": "^1(\\.\\d{1,2}){1,2}$"
             },
-            "versionId": {
+            "version_id": {
               "type": "string"
             }
           },
           "required": [
-            "minecraftVersion",
-            "versionId"
+            "minecraft_version",
+            "version_id"
           ]
         }
       },
@@ -50,7 +50,7 @@
           "type": "string"
         }
       },
-      "any-version": {
+      "any_version": {
         "type": "boolean"
       }
     },
